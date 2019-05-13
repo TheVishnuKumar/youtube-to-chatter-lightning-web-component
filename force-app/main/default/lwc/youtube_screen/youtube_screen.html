@@ -1,0 +1,12 @@
+<template>
+    <lightning-input value={searchTxt} label="Search Keyword" onchange={handleFormInput}></lightning-input>
+
+    <lightning-button label="Search" onclick={doSearch}></lightning-button>
+
+    <iframe style="height:200px;width:100%;border-radius: 2px;" allowfullscreen src={viewUrl}></iframe>
+
+    <template for:each={result} for:item="item">
+        <c-youtube_item key={item.videoId} item={item}></c-youtube_item>
+    </template>
+
+</template>
