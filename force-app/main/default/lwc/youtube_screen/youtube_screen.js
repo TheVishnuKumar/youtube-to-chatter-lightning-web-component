@@ -1,5 +1,6 @@
 import { LightningElement,track } from 'lwc';
 import searchVideos from '@salesforce/apex/YouTubeController.searchVideos';
+import shareOnChatter from '@salesforce/apex/YouTubeController.shareOnChatter';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class Youtube_screen extends LightningElement {
@@ -8,6 +9,7 @@ export default class Youtube_screen extends LightningElement {
     @track searchTxt;
     @track result = [];
     @track viewUrl = '';
+    @track chatterTxt = '';
 
     doSearch(){
         this.result = [];
@@ -32,8 +34,31 @@ export default class Youtube_screen extends LightningElement {
         });
     }
 
+    shareOnChatter(){
+        if(!this.chatterTxt){
+            this.showMessage( { message: 'Message is required to post on chatter.', messageType: 'error', mode: 'pester'} );
+            return;
+        }
+    
+        //Getting the timezone from current user's site
+        shareOnChatter({chatterText:this.chatterTxt, youTubeUrl: this.viewUrl})
+        .then(() => {
+            this.showMessage( { message: 'Feed succefully posted...', messageType: 'success', mode: 'pester'} );
+            this.chatterTxt = '';
+        })
+        .catch((error) => {
+            let message = error.message || error.body.message;
+            this.showMessage( { message: message, messageType: 'error', mode: 'pester'} );
+        });
+    }
+
     handleFormInput(event){
-        this.searchTxt = event.target.value;
+        if( event.target.name === 'youtube-search' ){
+            this.searchTxt = event.target.value;
+        }
+        else if( event.target.name === 'chatter-txt' ){
+            this.chatterTxt = event.target.value;
+        }
     }
 
     showVideoInIframe(videoId){

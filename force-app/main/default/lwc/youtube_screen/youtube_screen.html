@@ -7,7 +7,7 @@
                         <div class="slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_10-of-12">
                             <div class="slds-form-element">
                                 <div class="slds-form-element__control">
-                                    <lightning-input value={searchTxt} label="Search on youtube"
+                                    <lightning-input value={searchTxt} name="youtube-search" label="Search on youtube"
                                         onchange={handleFormInput}>
                                     </lightning-input>
                                 </div>
@@ -40,7 +40,7 @@
                             <div class="slds-form-element">
                                 <div class="slds-form-element__control">
                                     <lightning-input value={chatterTxt} label="Share on chatter"
-                                        placeholder="Type your chatter message here" onchange={handleFormInput}>
+                                        placeholder="Type your chatter message here" name="chatter-txt" onchange={handleFormInput}>
                                     </lightning-input>
                                 </div>
                             </div>

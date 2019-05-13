@@ -361,10 +361,10 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_screen/youtube_screen.html",
             "isDirectory": false,
-            "size": 3632,
-            "modifiedTime": 1557726249248,
-            "changeTime": 1557726249248,
-            "contentHash": "a8da0692c0ba13acf9fd1a700789d40ae387c7fa",
+            "size": 3673,
+            "modifiedTime": 1557726688876,
+            "changeTime": 1557726553680,
+            "contentHash": "ed05305a238bc12726bd31c4342ecdefa575b692",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -376,10 +376,10 @@
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_screen/youtube_screen.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1629,
-            "modifiedTime": 1557726390990,
-            "changeTime": 1557726390990,
-            "contentHash": "55be38fd0875245e2d2b5d2ba3156eb58a8bebe9"
+            "size": 2650,
+            "modifiedTime": 1557726846485,
+            "changeTime": 1557726846485,
+            "contentHash": "d927988d3e433a39f14f5260514ee139b0f156dd"
         }
     ],
     [
