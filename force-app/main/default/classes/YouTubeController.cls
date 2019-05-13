@@ -36,7 +36,6 @@ public class YouTubeController{
             YuTuWr.Description = itemObj.snippet.description;
             YuTuWr.thumbnails = itemObj.snippet.thumbnails.medium.url;            
             YuTuWr.channelTitle = itemObj.snippet.channelTitle ;
-            YuTuWr.publishedAt = itemObj.snippet.publishedAt+'';
             LstYTWrapper.add(YuTuWr);
         }
         return LstYTWrapper;

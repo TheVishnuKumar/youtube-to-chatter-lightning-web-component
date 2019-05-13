@@ -20,7 +20,7 @@
             <componentInstanceProperties>
                 <name>label</name>
                 <type>decorator</type>
-                <value>Youtube</value>
+                <value>Youtube Player</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>scrollable</name>

@@ -34,14 +34,12 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default",
             "isDirectory": true,
-            "size": 448,
-            "modifiedTime": 1557715487196,
-            "changeTime": 1557715498564,
-            "contentHash": "134fb9100108b9aaba9aee713cf235d514fd8f88",
+            "size": 512,
+            "modifiedTime": 1557718366840,
+            "changeTime": 1557718366840,
+            "contentHash": "fd466ad37b8da017190e7b1cda5939f4ab9d7ab9",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -49,14 +47,12 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/applications",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1557715487195,
-            "changeTime": 1557715498563,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "size": 96,
+            "modifiedTime": 1557718366822,
+            "changeTime": 1557718366822,
+            "contentHash": "773f904d4fd3e441ea0f66dde54c9ad8697bd065",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -94,10 +90,10 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/classes/YouTubeController.cls",
             "isDirectory": false,
-            "size": 2749,
-            "modifiedTime": 1557716092563,
-            "changeTime": 1557716092563,
-            "contentHash": "9c83384dc10f9f0c8dbb50b3c975b010a5276820",
+            "size": 2684,
+            "modifiedTime": 1557720132453,
+            "changeTime": 1557720132453,
+            "contentHash": "4a658835fa8217c8099c3f67049ff05b91fee519",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -168,14 +164,12 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/flexipages",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1557715487196,
-            "changeTime": 1557715498561,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "size": 96,
+            "modifiedTime": 1557718366820,
+            "changeTime": 1557718366820,
+            "contentHash": "2f79f562223ef599e86fc717c1112841ef079bd5",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "state": "u"
         }
     ],
     [
@@ -328,10 +322,10 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_item/youtube_item.html",
             "isDirectory": false,
-            "size": 39,
-            "modifiedTime": 1557716941850,
-            "changeTime": 1557716941850,
-            "contentHash": "e5e07ad88390803aa02596f6ac42d9fcf8d594f9",
+            "size": 942,
+            "modifiedTime": 1557720303270,
+            "changeTime": 1557720303270,
+            "contentHash": "9b2f7972a7e5da4b951f22a85d3afab0799a5160",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -341,10 +335,10 @@
         {
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_item/youtube_item.js",
             "isDirectory": false,
-            "size": 122,
-            "modifiedTime": 1557716867253,
-            "changeTime": 1557716867253,
-            "contentHash": "906df788412bfab4253e3fe38421812554f18177",
+            "size": 301,
+            "modifiedTime": 1557725997064,
+            "changeTime": 1557725997064,
+            "contentHash": "c64acb0288dbfcf9d07e1b197b21590408361573",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -369,23 +363,23 @@
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_screen/youtube_screen.html",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 436,
-            "modifiedTime": 1557717887975,
-            "changeTime": 1557717887975,
-            "contentHash": "b618f554907f18fc85a83c1a8469b57a77e59a6b"
+            "size": 3632,
+            "modifiedTime": 1557726249248,
+            "changeTime": 1557726249248,
+            "contentHash": "a8da0692c0ba13acf9fd1a700789d40ae387c7fa"
         }
     ],
     [
         "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_screen/youtube_screen.js",
         {
-            "state": "u",
             "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/lwc/youtube_screen/youtube_screen.js",
             "isDirectory": false,
+            "size": 1515,
+            "modifiedTime": 1557726130800,
+            "changeTime": 1557726130800,
+            "contentHash": "31d09cb9b9576f89add39300d00d88962987f8a5",
             "isMetadataFile": false,
-            "size": 1424,
-            "modifiedTime": 1557717993018,
-            "changeTime": 1557717993018,
-            "contentHash": "e1bf7eb2dda795023bd84cb5fe6a40550b6cd73e"
+            "state": "u"
         }
     ],
     [
@@ -398,6 +392,84 @@
             "changeTime": 1557717244312,
             "contentHash": "eec714689baead9bd2141c2826c59832defef879",
             "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/flexipages/Sales_UtilityBar.flexipage-meta.xml",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/flexipages/Sales_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 1804,
+            "modifiedTime": 1557719779331,
+            "changeTime": 1557719779331,
+            "contentHash": "6b339e5a803f177ed07442cdfb162f81a64f34c1",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/applications/standard__LightningSales.app-meta.xml",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/applications/standard__LightningSales.app-meta.xml",
+            "isDirectory": false,
+            "size": 1100,
+            "modifiedTime": 1557718366822,
+            "changeTime": 1557718366822,
+            "contentHash": "3058ec0e5cc44ad86b432e778b481df6849e1910",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/profiles/Admin.profile-meta.xml",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/profiles/Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 19011,
+            "modifiedTime": 1557718366838,
+            "changeTime": 1557718366838,
+            "contentHash": "1576631f4f1c4d4231195b130b0ab72a13ef1bad",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/remoteSiteSettings/Youtube_API.remoteSite-meta.xml",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/remoteSiteSettings/Youtube_API.remoteSite-meta.xml",
+            "isDirectory": false,
+            "size": 261,
+            "modifiedTime": 1557718366840,
+            "changeTime": 1557718366840,
+            "contentHash": "530baff2c616b7bbe2b81812a3eac8e3e34aab95",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/profiles",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/profiles",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1557718366838,
+            "changeTime": 1557718366838,
+            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/remoteSiteSettings",
+        {
+            "sourcePath": "/Users/vishnukumar/Desktop/workspace/youtube-to-chatter-lightning-web-component/force-app/main/default/remoteSiteSettings",
+            "isDirectory": true,
+            "size": 96,
+            "modifiedTime": 1557718366840,
+            "changeTime": 1557718366840,
+            "contentHash": "845e843b887c916d954209068957b33777bbd0d3",
+            "isMetadataFile": false,
             "state": "u"
         }
     ]

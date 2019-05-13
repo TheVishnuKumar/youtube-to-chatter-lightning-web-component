@@ -4,14 +4,18 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 
 export default class Youtube_screen extends LightningElement {
 
-    //Default search keyword added as 'Salesforce'
-    @track searchTxt = 'Salesforce';
+    //Default search keyword added as 'Lightning Web Component 0to1code'
+    @track searchTxt;
     @track result = [];
     @track viewUrl = '';
 
     doSearch(){
         this.result = [];
         this.viewUrl = '';
+
+        if( !this.searchTxt ){
+            this.searchTxt = 'Lightning Web Component 0to1code';
+        }
 
         //Getting the timezone from current user's site
         searchVideos({searchString:this.searchTxt})
@@ -34,6 +38,10 @@ export default class Youtube_screen extends LightningElement {
 
     showVideoInIframe(videoId){
         this.viewUrl = 'https://www.youtube.com/embed/'+videoId;
+    }
+
+    handleVideoChange(event){
+        this.showVideoInIframe(event.detail.videoId);
     }
 
     connectedCallback(){

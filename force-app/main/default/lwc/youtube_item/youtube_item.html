@@ -1,3 +1,22 @@
 <template>
-    {item.title}
+    <article class="slds-card" style="margin: 5px;">
+        <div class="slds-card__header slds-grid">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <img style="width: 50px;height: 50px;border-radius: 9px;" src={item.thumbnails}/>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a onclick={watchVideo} class="slds-card__header-link">
+                            <span>{item.title}</span>
+                        </a>
+                    </h2>
+                </div>
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <div>{item.Description}</div>
+            <span style="font-weight: bold;">By: {item.channelTitle}</span>
+        </div>
+    </article>
 </template>
