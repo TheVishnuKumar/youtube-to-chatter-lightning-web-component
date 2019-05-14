@@ -3,11 +3,11 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
-            "c/youtube_screen": [
-                "youtube_screen/youtube_screen.js"
-            ],
             "c/youtube_item": [
                 "youtube_item/youtube_item.js"
+            ],
+            "c/youtube_screen": [
+                "youtube_screen/youtube_screen.js"
             ]
         }
     },
