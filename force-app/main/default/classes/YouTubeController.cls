@@ -1,6 +1,6 @@
 public class YouTubeController{
     private static final String SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
-    private static final String API_KEY = 'AIzaSyC60-a9ziN9zLIcb9ueYv2-IwS03CnYgI4'; //API_KEY
+    private static final String API_KEY = ''; //API_KEY
     
     //Fetching youtube data by given search string
     @AuraEnabled
