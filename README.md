@@ -14,7 +14,7 @@ Few of the cool things about this Lightning web Component:
 4. Play video and close the utility. You are still able to hear the audio. It can be your next music player.
 
 
-Step to Use
+Steps to Use
 -------------
 Please visit this blog to read abou this Lightning Web Component.
 
