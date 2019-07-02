@@ -17,7 +17,8 @@ Few of the cool things about this Lightning web Component:
 Step to Use
 -------------
 Please visit this blog to read abou this Lightning Web Component.
-<a href="https://githubsfdeploy.herokuapp.com?owner=TheVishnuKumar&repo=youtube-to-chatter-lightning-web-component">
+
+<a href="http://www.0to1code.com/youtube-video-search-and-player-in-lightning-web-component/">
 Youtube Video Search and Player in Lightning Web Component
 </a>
 
