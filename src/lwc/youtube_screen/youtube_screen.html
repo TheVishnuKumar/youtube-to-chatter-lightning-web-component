@@ -1,0 +1,67 @@
+<template>
+    <div style="border-bottom: 7px solid #1b5297;">
+        <div class="slds-form-element slds-col slds-size_1-of-1 slds-medium-size_1-of-1 slds-large-size_1-of-1">
+            <fieldset class="slds-form-element slds-form-element_compound">
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__row">
+                        <div class="slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_10-of-12">
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control">
+                                    <lightning-input value={searchTxt} name="youtube-search" label="Search on youtube"
+                                        onchange={handleFormInput}>
+                                    </lightning-input>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_2-of-12">
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control" style="margin-top: 21px;">
+                                    <lightning-button label="Search" onclick={doSearch}>
+                                    </lightning-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        <article class="slds-card" style="margin: 5px;">
+            <div class="slds-card__body slds-card__body_inner" style="padding: 0px;margin: 3px;">
+                <iframe style="height:200px;width:100%;border-radius: 2px;" allowfullscreen src={viewUrl}></iframe>
+            </div>
+        </article>
+
+        <div class="slds-form-element slds-col slds-size_1-of-1 slds-medium-size_1-of-1 slds-large-size_1-of-1">
+            <fieldset class="slds-form-element slds-form-element_compound">
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__row">
+                        <div class="slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_10-of-12">
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control">
+                                    <lightning-input value={chatterTxt} label="Share on chatter"
+                                        placeholder="Type your chatter message here" name="chatter-txt" onchange={handleFormInput}>
+                                    </lightning-input>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-size_1-of-1 slds-medium-size_4-of-12 slds-large-size_2-of-12">
+                            <div class="slds-form-element">
+                                <div class="slds-form-element__control" style="margin-top: 21px;">
+                                    <lightning-button label="Share" onclick={shareOnChatter}>
+                                    </lightning-button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+
+    <div style="max-height: 305px;overflow: scroll;">
+        <template for:each={result} for:item="item">
+            <c-youtube_item key={item.videoId} item={item} onvideochange={handleVideoChange}></c-youtube_item>
+        </template>
+    </div>
+</template>
