@@ -19,10 +19,6 @@
     <members>youtube_screen</members>
   </types>
   <types>
-    <name>Profile</name>
-    <members>Admin</members>
-  </types>
-  <types>
     <name>RemoteSiteSetting</name>
     <members>Youtube_API</members>
   </types>
